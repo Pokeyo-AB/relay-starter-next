@@ -1,0 +1,16 @@
+{
+  "root": ".",
+  "sources": {
+    "pages": "my_app",
+    "components": "my_app"
+  },
+  "projects": {
+    "my_app": {
+      "language": "typescript",
+      "schema": "schema.graphql",
+      "output": "__generated__",
+      "useImportTypeSyntax": true,
+      "eagerEsModules": true
+    }
+  }
+}
